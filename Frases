@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagens de Amor para Karen</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            background-color: #fff;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .mensagem {
+            display: none;
+        }
+        .mensagem.active {
+            display: block;
+        }
+        h2 {
+            color: #d1005d;
+            text-align: center;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+        .buttons {
+            text-align: center;
+            margin-top: 20px;
+        }
+        button {
+            background-color: #d1005d;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #b0004d;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Mensagens de Amor para Karen</h2>
+    <div id="mensagens">
+        <!-- As mensagens serão inseridas aqui pelo JavaScript -->
+    </div>
+    <div class="buttons">
+        <button id="prev">Anterior</button>
+        <button id="next">Próxima</button>
+    </div>
+</div>
+
+<script>
+    const mensagens = [
+        "Karen, a cada amanhecer, meu amor por você floresce mais belo e forte, como se cada raio de sol fosse um sussurro do meu coração ao teu.",
+        "Nos teus olhos, Karen, encontro não apenas minha felicidade, mas o mapa para a eternidade do nosso amor.",
+        "Com você, Karen, cada momento é uma eterna dança sob as estrelas, um bailar romântico guiado pelo compasso dos nossos corações.",
+        "O amor que sinto por você, Karen, é como uma obra de arte divina, cada dia mais rico em cores, formas e sentimentos.",
+        "Karen, nosso amor é o poema mais belo já escrito, cada verso, cada palavra, é um testemunho do infinito que reside em nossos corações.",
+        "Karen, contra todas as adversidades, nosso amor se fortalecerá, como um farol que resiste às mais bravias tempestades.",
+        "A cada desafio, Karen, nosso amor se torna mais forte, provando que somos invencíveis quando estamos juntos.",
+        "Não há obstáculo grande o suficiente, Karen, que nosso amor não possa superar. Juntos, somos mais fortes do que jamais imaginamos.",
+        "Karen, lembre-se de que cada dia juntos é uma vitória, um passo a mais rumo à fortaleza do nosso amor eterno.",
+        "Nunca desistiremos, Karen, pois nosso amor é o alicerce sobre o qual construímos nossos sonhos, mais forte a cada amanhecer."
+    ];
+
+    const container = document.getElementById('mensagens');
+    mensagens.forEach((msg, index) => {
+        const div = document.createElement('div');
+        div.className = 'mensagem';
+        if (index === 0) div.classList.add('active');
+        div.innerHTML = `<p>${msg}</p>`;
+        container.appendChild(div);
+    });
+
+    let currentIndex = 0;
+    const updateMessages = (index) => {
+        document.querySelectorAll
