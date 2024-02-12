@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagens de Amor para Karen</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 40px;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        .mensagem {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .mensagem h2 {
+            color: #d1005d;
+        }
+        .mensagem p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="mensagem">
+        <h2>Frases Ultra Românticas</h2>
+        <p>"Karen, a cada amanhecer, meu amor por você floresce mais belo e forte, como se cada raio de sol fosse um sussurro do meu coração ao teu."</p>
+        <p>"Nos teus olhos, Karen, encontro não apenas minha felicidade, mas o mapa para a eternidade do nosso amor."</p>
+        <p>"Com você, Karen, cada momento é uma eterna dança sob as estrelas, um bailar romântico guiado pelo compasso dos nossos corações."</p>
+        <p>"O amor que sinto por você, Karen, é como uma obra de arte divina, cada dia mais rico em cores, formas e sentimentos."</p>
+        <p>"Karen, nosso amor é o poema mais belo já escrito, cada verso, cada palavra, é um testemunho do infinito que reside em nossos corações."</p>
+    </div>
+
+    <div class="mensagem">
+        <h2>Frases Sobre a Força do Nosso Amor</h2>
+        <p>"Karen, contra todas as adversidades, nosso amor se fortalecerá, como um farol que resiste às mais bravias tempestades."</p>
+        <p>"A cada desafio, Karen, nosso amor se torna mais forte, provando que somos invencíveis quando estamos juntos."</p>
+        <p>"Não há obstáculo grande o suficiente, Karen, que nosso amor não possa superar. Juntos, somos mais fortes do que jamais imaginamos."</p>
+        <p>"Karen, lembre-se de que cada dia juntos é uma vitória, um passo a mais rumo à fortaleza do nosso amor eterno."</p>
+        <p>"Nunca desistiremos, Karen, pois nosso amor é o alicerce sobre o qual construímos nossos sonhos, mais forte a cada amanhecer."</p>
+    </div>
+
+</body>
+</html>
